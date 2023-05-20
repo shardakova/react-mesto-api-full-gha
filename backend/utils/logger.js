@@ -1,9 +1,6 @@
-const path = require('path');
 const { createLogger, format, transports } = require('winston');
 
 function logger() {
-  const logsPath = './logs/';
-
   const winston = createLogger({
     level: 'info',
     format: format.combine(
@@ -15,17 +12,17 @@ function logger() {
     ),
     transports: [
       new transports.File({
-        filename: path.join(logsPath, 'error.log'),
+        filename: 'error.log',
         level: 'error',
       }),
       new transports.File({
-        filename: path.join(logsPath, 'requests.log'),
+        filename: 'requests.log',
         level: 'info',
       }),
     ],
     exceptionHandlers: [
       new transports.File({
-        filename: path.join(logsPath, 'exceptions.log'),
+        filename: 'exceptions.log',
       }),
     ],
   });

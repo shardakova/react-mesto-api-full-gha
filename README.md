@@ -8,7 +8,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 95.31.11.242
+IP 95.31.11.242
 
 Frontend https://olga-frontend.onetwo.tv
 
