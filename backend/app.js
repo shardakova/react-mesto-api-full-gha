@@ -6,7 +6,6 @@ const { errors } = require('celebrate');
 const routes = require('./routes/index');
 const config = require('./config');
 const logger = require('./utils/logger');
-const e = require('express');
 
 // Connect to the database
 (async () => {
@@ -30,8 +29,7 @@ app.use((req, res, next) => {
     const logMessage = `${ip} "${req.method} ${req.url}" ${res.statusCode} ${req.headers['user-agent']}`;
     if (/2\d{2}/.test(res.statusCode)) {
       logger.info(logMessage);
-    }
-    else {
+    } else {
       logger.error(logMessage);
     }
   });

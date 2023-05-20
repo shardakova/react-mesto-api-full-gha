@@ -16,7 +16,7 @@ const defaultFields = {
 
 async function getCards(req, res, next) {
   try {
-    const cards = await Card.find({}, defaultFields).sort({createdAt: -1});
+    const cards = await Card.find({}, defaultFields).sort({ createdAt: -1 });
     return res.send(cards);
   } catch (err) {
     return next(err);

@@ -1,8 +1,7 @@
 const path = require('path');
-const { createLogger, format, transports, level} = require('winston');
+const { createLogger, format, transports } = require('winston');
 
-
-function logger () {
+function logger() {
   const logsPath = './logs/';
 
   const winston = createLogger({
@@ -37,7 +36,7 @@ function logger () {
         format.colorize(),
         format.simple(),
       ),
-      handleExceptions: true
+      handleExceptions: true,
     }));
   }
 
