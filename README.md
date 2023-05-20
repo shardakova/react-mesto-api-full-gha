@@ -8,8 +8,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 95.31.11.242
 
-Frontend https://...
+Frontend https://olga-frontend.onetwo.tv
 
-Backend https://...
+Backend https://olga-backend.onetwo.tv
