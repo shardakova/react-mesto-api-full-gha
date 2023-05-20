@@ -1,0 +1,27 @@
+.button_type_login_form:hover {
+  background: #d9d9d9;
+}
+
+.button_type_login_form {
+  padding: 0;
+  background: #fff;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 358px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  transition: background .2s ease;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_login_form {
+    font-size: 16px;
+    line-height: 17px;
+    min-height: 46px;
+  }
+}

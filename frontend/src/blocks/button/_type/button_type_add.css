@@ -1,0 +1,28 @@
+.button_type_add:hover {
+  opacity: .6;
+}
+
+.button_type_add {
+  margin-left: auto;
+  padding: 0;
+  min-width: 150px;
+  min-height: 50px;
+  text-align: center;
+  background-image: url(../../../images/button_type_add.svg);
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_add {
+    margin-left: 0;
+    margin-top: 36px;
+    width: 282px;
+    background-size: 16px;
+  }
+}

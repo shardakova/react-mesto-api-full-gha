@@ -1,0 +1,10 @@
+.sign_in_form__hint {
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sign_in_form__hint {
+    font-size: 14px;
+  }
+}

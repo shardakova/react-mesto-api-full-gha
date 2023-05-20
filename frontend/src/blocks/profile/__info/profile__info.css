@@ -1,0 +1,19 @@
+.profile__info {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  row-gap: 16px;
+  column-gap: 18px;
+  grid-template-rows: 1fr minmax(min-content, max-content);
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__info {
+    padding-left: 20px;
+    padding-right: 0;
+    row-gap: 14px;
+    column-gap: 10px;
+  }
+}

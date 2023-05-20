@@ -1,0 +1,9 @@
+.sign_in_form__hint_link {
+  color: #fff;
+  transition: color .2s ease;
+  text-decoration: none;
+}
+
+.sign_in_form__hint_link:hover {
+  color: #d9d9d9;
+}

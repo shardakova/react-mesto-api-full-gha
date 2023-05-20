@@ -1,0 +1,7 @@
+.header__link-has-user {
+  color: #a9a9a9;
+}
+
+.header__link-has-user:hover {
+  color: #fff;
+}

@@ -1,0 +1,5 @@
+.info_tooltip_opened {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}

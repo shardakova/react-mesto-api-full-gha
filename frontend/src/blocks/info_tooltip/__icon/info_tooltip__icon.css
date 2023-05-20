@@ -1,0 +1,9 @@
+.info_tooltip__icon {
+  font-size: 160px;
+}
+
+@media screen and (max-width: 768px) {
+  .info_tooltip__icon {
+    font-size: 120px;
+  }
+}

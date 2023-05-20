@@ -1,0 +1,7 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  position: relative;
+}

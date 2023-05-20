@@ -1,0 +1,9 @@
+.header__link {
+  color: #fff;
+  transition: color .2s ease;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #d9d9d9;
+}

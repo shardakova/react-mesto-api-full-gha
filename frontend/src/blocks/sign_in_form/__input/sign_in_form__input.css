@@ -1,0 +1,17 @@
+.sign_in_form__input {
+  all: unset;
+  width: 100%;
+  padding-bottom: 13px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.sign_in_form__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.sign_in_form__input:disabled {
+  color: #888888;
+}

@@ -1,0 +1,13 @@
+.button_type_del:hover {
+  opacity: .5;
+}
+
+.button_type_del {
+  padding: 0;
+  min-width: 18px;
+  min-height: 19px;
+  background-image: url(../../../images/button_type_del.svg);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

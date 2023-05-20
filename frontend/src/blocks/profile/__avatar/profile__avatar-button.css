@@ -1,0 +1,16 @@
+.profile__avatar-button {
+  margin: auto;
+  position: absolute;
+  border: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../images/avatar_icon.svg");
+  background-color: rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}

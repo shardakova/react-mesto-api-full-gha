@@ -1,0 +1,21 @@
+.popup__image-container {
+  margin: auto;
+  position: relative;
+}
+
+.popup__image-container::after {
+  content: '';
+  position: absolute;
+  background: #2A2C2F;
+  opacity: .3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity .3s ease-in-out;
+}
+
+.popup__image-container:hover::after {
+  opacity: .8;
+}

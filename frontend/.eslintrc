@@ -1,0 +1,8 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "standard"],
+  "rules": {
+    "semi": [2, "always"],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

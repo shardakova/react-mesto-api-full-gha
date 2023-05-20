@@ -1,0 +1,32 @@
+.button_type_edit:hover {
+  opacity: .6;
+}
+
+.button_type_edit {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/button_type_edit.svg);
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_edit {
+    width: 20px;
+    height: 20px;
+    background-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button_type_edit {
+    width: 18px;
+    height: 18px;
+    background-size: 7.5px;
+  }
+}
