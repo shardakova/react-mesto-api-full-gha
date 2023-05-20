@@ -16,7 +16,7 @@ function logger() {
         level: 'error',
       }),
       new transports.File({
-        filename: 'requests.log',
+        filename: 'request.log',
         level: 'info',
       }),
     ],
